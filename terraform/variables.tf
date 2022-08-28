@@ -13,10 +13,15 @@ variable "private_key_path" {
   type        = string
 }
 
-variable "region" {
-  description = "The region to connect to. Default: eu-frankfurt-1"
+variable "private_key_password" {
+  description = "passphrase to use for signing"
   type        = string
-  default     = "eu-frankfurt-1"
+}
+
+variable "region" {
+  description = "The region to connect to. Default: uk-london-1"
+  type        = string
+  default     = "uk-london-1"
 }
 
 variable "tenancy_ocid" {

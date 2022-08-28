@@ -55,8 +55,8 @@ locals {
     shape_id = "VM.Standard.A1.Flex"
     ocpus    = 2
     ram      = 12
-    // Canonical-Ubuntu-20.04-aarch64-2021.12.01-0
-    source_id   = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaaerzsdjk2ahjgfgf2zxtxtnpl3n3ew6qse2g2lxnnumxui7hsmsja"
+    // Canonical-Ubuntu-20.04-aarch64-2022.07.15-0
+    source_id   = "ocid1.image.oc1.uk-london-1.aaaaaaaag4646eumjvvojwvshhfhri3i7bgrqsucuvrwqsu27mhpaigbx5ua"
     source_type = "image"
     server_ip_1 = "10.0.0.11"
     server_ip_2 = "10.0.0.12"
@@ -71,7 +71,7 @@ locals {
     ocpus    = 1
     ram      = 1
     // Canonical-Ubuntu-20.04-aarch64-2021.12.01-0
-    source_id   = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaadlurdwl77zh7l5dlngngxjormr3xvqvapiaiv6gbuffo6dzfu6la"
+    source_id   = "ocid1.image.oc1.uk-london-1.aaaaaaaag4646eumjvvojwvshhfhri3i7bgrqsucuvrwqsu27mhpaigbx5ua"
     source_type = "image"
     worker_ip_0 = "10.0.0.21"
     worker_ip_1 = "10.0.0.22"
